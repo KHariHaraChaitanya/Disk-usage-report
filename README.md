@@ -1,3 +1,3 @@
 # Disk-usage-report
 
-python script to fetch disk usage report
+Python Linux Script to Generate a Disk Usage Report
