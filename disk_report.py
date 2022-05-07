@@ -27,7 +27,7 @@ if __name__ == '__main__':
     for entry in os.scandir(directory):
         print (entry.path)
         if (entry.is_dir(follow_symlinks=False)):
-            #print(entry.path + "is a directory")
+            #print(entry.path + "is a directory ")
             #print(get_size(entry.path))
             total = get_size(entry.path)
             paths.append(entry.path)
